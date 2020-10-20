@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  &__button {
+    width: 300px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 60px;
+    outline: none;
+
+    &:active {
+      background-color: rgb(7, 7, 85);
+    }
+  }
+}
